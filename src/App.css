@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background{
+    background-image: url('/src/assets/pattern-bg-mobile.png');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.leaflet-container{
+    height:650px;
+}
+
+@media screen and (min-width: 376px) {
+    .background{
+        background: center/100%  url('/src/assets/pattern-bg-desktop.png');
+        height: 280px;
+        width: 100%;
+  }
+}
+  @media screen and (min-width: 440px) {
+  .display{
+    left: 40px;
+  }
+  }
+
+
+.map {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  
+}
+
+
+
+
