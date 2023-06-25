@@ -25,3 +25,5 @@ const Display = ({info}) => {
     </div>
   )
 }
+
+export default Display
