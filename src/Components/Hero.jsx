@@ -14,7 +14,7 @@ const Hero = () => {
     postalCode:""
 });
   return (
-  <div>
+  <main>
     <div className="background flex items-center flex-col">
         <h1 className='my-9 text-white font-semibold text-2xl'>IP Address Tracker</h1>
         <SearchBar info={info}
@@ -24,7 +24,7 @@ const Hero = () => {
       <Display info={info}/>
       <Map info={info}/>
       </div>
-    </div>
+    </main>
   )
 }
 
