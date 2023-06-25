@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-
+import {arrow} from "../assets";
 const SearchBar = ({ info, setinfo }) => {
   const apiKey = 'at_QGtWF3HVdBHln19VCJRMpgky82cfB'
   const url = `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}&ipAddress=${info.ipAddress}`;
@@ -50,7 +50,7 @@ const fetchIpinfo=()=>{
         />
         
         <button type="submit" className="bg-black rounded-r-xl relative w-12 h-14">
-        <img src="./src/assets/icon-arrow.svg" className='absolute right-4 top-6 ' alt="search indicator" />
+        <img src={arrow} className='absolute right-4 top-6 ' alt="search indicator" />
         </button>
         
       </form>

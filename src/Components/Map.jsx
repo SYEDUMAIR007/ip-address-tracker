@@ -1,6 +1,6 @@
 import React from 'react';
 import L from 'leaflet';
-
+import {location} from "../assets";
 const Map = ({ info }) => {
   const mapContainer = React.useRef(null);
   
@@ -16,7 +16,7 @@ const Map = ({ info }) => {
 
     // Create a custom icon
     const customIcon = L.icon({
-      iconUrl: ("./src/assets/icon-location.svg"),
+      iconUrl: (location),
      
     });
 
