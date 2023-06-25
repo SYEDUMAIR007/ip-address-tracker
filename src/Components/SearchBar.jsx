@@ -46,7 +46,7 @@ const fetchIpinfo=()=>{
           value={info.ipAddress}
           onChange={handleChange}
           placeholder="Enter IP address"
-          className='searchBar px-3 py-2 border-none font-Rubik rounded-l-xl w-full sm:w-1/2 '
+          className='searchBar px-3 py-2 border-none font-Rubik rounded-l-xl w-full md:w-1/2 '
         />
         
         <button type="submit" className="bg-black rounded-r-xl relative w-12 h-14">
